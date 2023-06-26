@@ -48,9 +48,20 @@ To use this application, simply clone the repository and open jupyter lab from g
 
 `jupyter lab`
 
-## Examples
-Actual returns versus Strategy returns
-![image](https://github.com/malika0410/Algorithmic-Trading/blob/main/images/returns.png)
+## After tuning the data 
+- Here I have tune the training algorithm by adjusting the size of the training dataset as 6 months instead of 3 months. Compared it with the original 3 month dataset
+ ![image](https://github.com/malika0410/Algorithmic-Trading/blob/main/images/6month.PNG)
+
+- Also I have tune the trading algorithm by adjusting the SMA input features.Short window = 50 and long window = 200
+ ![image](https://github.com/malika0410/Algorithmic-Trading/blob/main/images/window_50_200.PNG)
+
+- Finally compared the cumpulative reutn plot of trading algorithm before and after tuning the dataset.
+  Actual returns versus Strategy returns
+ ![image](https://github.com/malika0410/Algorithmic-Trading/blob/main/images/returns.png)
+
+![image](https://github.com/malika0410/Algorithmic-Trading/blob/main/images/return_6months.PNG)
+
+
 
 
 
