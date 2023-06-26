@@ -53,11 +53,14 @@ To use this application, simply clone the repository and open jupyter lab from g
  ![image](https://github.com/malika0410/Algorithmic-Trading/blob/main/images/6month.PNG)
 
 - Also I have tune the trading algorithm by adjusting the SMA input features.Short window = 50 and long window = 200
+  ![image](https://github.com/malika0410/Algorithmic-Trading/blob/main/images/window50_200.PNG)
  
 
 - Finally compared the cumpulative reutn plot of trading algorithm before and after tuning the dataset.
   Actual returns versus Strategy returns
  ![image](https://github.com/malika0410/Algorithmic-Trading/blob/main/images/returns.png)
+ ![image](https://github.com/malika0410/Algorithmic-Trading/blob/main/images/6monthsreturn.PNG)
+
 
 
 
@@ -66,7 +69,9 @@ To use this application, simply clone the repository and open jupyter lab from g
 Ans. Notice that our SVM model when the traing window was 3 month performed well from the end of 2017 period until early in 2019. That’s when the actual and predicted returns start to greatly differ.When the training window changed to 6 months there is no significant change can be seen just a slight differ in 6 month data after 2020.
 
 2) What impact resulted from increasing or decreasing either or both of the SMA windows?
-Ans. When the training window set to period 50 and 200 there is a drastically increase or decrease in returns. Model did not perform well and actual return and strategy returns are different.    
+Ans. When the training window set to period 50 and 200 there is a drastically increase or decrease in returns. Model did not perform well and actual return and strategy returns are different.
+
+![image](https://github.com/malika0410/Algorithmic-Trading/blob/main/images/window.PNG)
 
 
 
